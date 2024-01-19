@@ -1,0 +1,36 @@
+<div class="container">
+    
+    <app-header></app-header>
+    <app-menu></app-menu>
+    <div class="content">
+        <div class="target">
+<!-- <p-button (click)="confirm()" icon="pi pi-check" label="Confirm"></p-button> -->
+
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <div class="footer">
+        <app-footer></app-footer>
+        <!-- <button (click)="test()">test</button> -->
+
+    </div>
+</div>
+
+<!-- <p-dialog header="Selecciona Tu Nombre" [(visible)]="showDialog" [modal]="true" [responsive]="true" [closable]="false" [style]="{width: '70%'}">
+    <div class="invitados-container">
+      <div class="invitados-list" #invitadosList>
+        <ng-container *ngFor="let invitado of invitados">
+          <div class="invitado-item">
+            <p-radioButton [name]="invitado.nombre" [(ngModel)]="selectedInvitado" [value]="invitado" [inputId]="invitado.nombre">
+              
+            </p-radioButton>
+            <label [for]="invitado.nombre" class="ml-2 text">{{ invitado.nombre }} {{ invitado.apellido }}</label>
+
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <div class="button-container">
+      <button pButton type="button" label="Aceptar" (click)="aceptarInvitacion()" [disabled]="!selectedInvitado"></button>
+    </div>
+  </p-dialog> -->
