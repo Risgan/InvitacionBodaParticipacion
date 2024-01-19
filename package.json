@@ -1,5 +1,5 @@
 {
-  "name": "invitacion-boda-participacion",
+  "name": "boda-laura-john",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,14 +11,25 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
+    "@angular/cdk": "^16.1.1",
     "@angular/common": "^16.0.0",
     "@angular/compiler": "^16.0.0",
     "@angular/core": "^16.0.0",
+    "@angular/fire": "^7.6.1",
     "@angular/forms": "^16.0.0",
+    "@angular/material": "^16.1.1",
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "cors": "^2.8.5",
+    "firebase": "^9.22.2",
+    "https": "^1.0.0",
+    "nodemailer": "^6.9.3",
+    "primeicons": "^6.0.1",
+    "primeng": "^16.0.0-rc.2",
     "rxjs": "~7.8.0",
+    "swiper": "^8.4.7",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
